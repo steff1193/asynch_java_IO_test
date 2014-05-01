@@ -1,0 +1,18 @@
+Thu May 01 19:17:32 GST 2014 Starting synch (-1)
+Total faculty sum: -101163
+Thu May 01 19:19:19 GST 2014 Finished synch (-1) in 107016 ms
+Thu May 01 19:19:19 GST 2014 Starting synch_threaded (1)
+Total faculty sum: 5180000
+Thu May 01 19:21:07 GST 2014 Finished synch_threaded (1) in 107692 ms
+Thu May 01 19:21:07 GST 2014 Starting asynch_threaded (1)
+Total faculty sum: -1640000
+Thu May 01 19:22:55 GST 2014 Finished asynch_threaded (1) in 107855 ms
+Thu May 01 19:22:55 GST 2014 Starting synch_threaded (30)
+Total faculty sum: -4874362
+Thu May 01 19:23:07 GST 2014 Finished synch_threaded (30) in 11440 ms
+Thu May 01 19:23:07 GST 2014 Starting asynch_threaded (30)
+Total faculty sum: 3720090
+Thu May 01 19:23:18 GST 2014 Finished asynch_threaded (30) in 11220 ms
+Thu May 01 19:23:18 GST 2014 Starting asynch_future (-1)
+Total faculty sum: 1160000
+Thu May 01 19:24:02 GST 2014 Finished asynch_future (-1) in 44188 ms

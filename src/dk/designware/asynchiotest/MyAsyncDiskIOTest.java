@@ -38,9 +38,9 @@ public class MyAsyncDiskIOTest {
 		int threads = (args.length > 5)?Integer.parseInt(args[5]):-1;
 		
 		
-		/*System.out.println("Creating 1024 * " + no1KBlocks + " sized file at " + fileName);
+		System.out.println("Creating 1024 * " + no1KBlocks + " sized file at " + fileName);
 		createFile(new File(fileName), 1024, no1KBlocks);
-		System.out.println("Finished creating file " + fileName);*/
+		System.out.println("Finished creating file " + fileName);
 
 		ExecutorService es = (mode.contains("threaded"))?Executors.newFixedThreadPool(threads):null;
 		System.out.println(new Date() + " Starting " + mode + " (" + threads + ")");
